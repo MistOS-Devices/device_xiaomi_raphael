@@ -9,8 +9,6 @@ include device/xiaomi/sm8150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/raphael
 
-BUILD_BROKEN_DUP_RULES := true
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
 
