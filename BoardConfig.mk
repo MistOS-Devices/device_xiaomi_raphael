@@ -24,5 +24,8 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_raphael
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/raphael.config
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/raphael/BoardConfigVendor.mk

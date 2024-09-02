@@ -45,10 +45,10 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/firmware/tfa98xx.cnt
 
 # Audio hardware
-vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib/hw/audio.primary.msmnile.so:vendor/lib/hw/audio.primary.raphael.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_raphael.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioconfigstore.so
