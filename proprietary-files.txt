@@ -88,7 +88,6 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libFaceGrade.so
 vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libOpenCL.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
@@ -111,9 +110,6 @@ vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libqmi_cci.so
-vendor/lib64/libqmi_common_so.so
-vendor/lib64/libqmi_encdec.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
