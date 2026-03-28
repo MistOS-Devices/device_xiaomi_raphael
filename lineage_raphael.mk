@@ -9,13 +9,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
 TARGET_DISABLE_EPPE := true
+
+# Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := Butterfingers
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_NAME := lineage_raphael
 PRODUCT_DEVICE := raphael
