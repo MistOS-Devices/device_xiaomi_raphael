@@ -3,33 +3,33 @@
     "repository": "bulla0x/android_device_xiaomi_raphael",
     "target_path": "device/xiaomi/sm8150-common",
     "remote": "mist",
-    "branch": "MistOS-16.2"
+    "branch": "github-non-los"
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_sm8150-common",
     "target_path": "vendor/xiaomi/sm8150-common",
-    "remote": "mist",
+    "remote": "github-non-los",
     "branch": "lineage-qpr2",
     "depth": 1
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_raphael",
     "target_path": "vendor/xiaomi/raphael",
-    "remote": "mist",
+    "remote": "github-non-los",
     "branch": "lineage-qpr2",
     "depth": 1
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/sm8150",
-    "remote": "mist",
+    "remote": "github-non-los",
     "branch": "16.0-raphael",
     "depth": 1
   },
   {
     "repository": "crdroidandroid/hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "remote": "mist",
+    "remote": "github-non-los",
     "branch": "16.0-raphael"
   },
   {
