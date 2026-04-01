@@ -20,10 +20,10 @@
     "depth": 1
   },
   {
-    "repository": "crdroidandroid/android_kernel_xiaomi_sm8150",
+    "repository": "bulla0x/kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/sm8150",
     "remote": "github-non-los",
-    "branch": "16.0-raphael",
+    "branch": "16.0",
     "depth": 1
   },
   {
@@ -33,7 +33,7 @@
     "branch": "16.0-raphael"
   },
   {
-    "repository": "ralf/vendor_xiaomi_miuicamera",
+    "repository": "ralf979/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
     "remote": "gitlab",
     "branch": "waterlily-qpr2",
