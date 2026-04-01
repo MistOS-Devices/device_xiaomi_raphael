@@ -13,7 +13,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
 TARGET_DISABLE_EPPE := true
 
