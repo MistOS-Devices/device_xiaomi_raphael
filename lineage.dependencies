@@ -34,7 +34,7 @@
   },
   {
     "repository": "Evolution-X-Devices/device_xiaomi_miuicamera-raphael",
-    "target_path": "device/xiaomi/miuicamera"
+    "target_path": "device/xiaomi/miuicamera",
     "remote": "github-non-los",
     "branch": "bka"
   },
