@@ -39,10 +39,10 @@
     "branch": "bka"
   },
   {
-    "repository": "ralf979/vendor_xiaomi_miuicamera",
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
     "remote": "gitlab",
-    "branch": "waterlily-qpr2",
+    "branch": "16.0-raphael",
     "depth": 1
   }
 ]
