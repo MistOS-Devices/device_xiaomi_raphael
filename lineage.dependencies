@@ -2,40 +2,46 @@
   {
     "repository": "bulla0x/android_device_xiaomi_sm8150-common",
     "target_path": "device/xiaomi/sm8150-common",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "MistOS-16.2"
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_sm8150-common",
     "target_path": "vendor/xiaomi/sm8150-common",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "lineage-qpr2",
     "depth": 1
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_raphael",
     "target_path": "vendor/xiaomi/raphael",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "lineage-qpr2",
     "depth": 1
   },
   {
     "repository": "bulla0x/android_kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/sm8150",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "16.0-raphael",
     "depth": 1
   },
   {
-    "repository": "Evolution-X-Devices/hardware_xiaomi",
+    "repository": "crdroidandroid/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "remote": "gitHub",
-    "branch": "bka-no-dolby"
+    "remote": "github",
+    "branch": "16.0-raphael"
+  },
+  {
+    "repository": "bulla0x/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "remote": "github",
+    "branch": "sony-1.5"
   },
   {
     "repository": "Evolution-X-Devices/device_xiaomi_miuicamera-raphael",
     "target_path": "device/xiaomi/miuicamera",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "bka"
   },
   {
