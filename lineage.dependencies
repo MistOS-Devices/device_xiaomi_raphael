@@ -1,9 +1,9 @@
 [
   {
-    "repository": "bulla0x/android_device_xiaomi_sm8150-common",
+    "repository": "bulla0x/device_xiaomi_sm8150_common",
     "target_path": "device/xiaomi/sm8150-common",
     "remote": "github",
-    "branch": "MistOS-16.2"
+    "branch": "private"
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_sm8150-common",
