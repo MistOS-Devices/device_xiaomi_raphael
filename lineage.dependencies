@@ -50,5 +50,18 @@
     "remote": "gitlab",
     "branch": "16.0-raphael",
     "depth": 1
-  }
+  },
+  {
+    "repository": "bulla0x/frameworks_base_qpr2",
+    "target_path": "frameworks/base",
+    "remote": "github",
+    "branch": "16.2",
+    "override": true
+  },
+  { 
+    "repository": "bulla0x/frameworks_native",
+    "target_path": "frameworks/native",
+    "remote": "github",
+    "branch": "16.2",
+    "override": true
 ]
