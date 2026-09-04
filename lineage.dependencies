@@ -1,45 +1,57 @@
 [
   {
-    "repository": "bulla0x/android_device_xiaomi_sm8150-common",
+    "repository": "bulla0x/device_xiaomi_sm8150-common",
     "target_path": "device/xiaomi/sm8150-common",
-    "remote": "gitHub",
-    "branch": "MistOS-16.2"
+    "remote": "github",
+    "branch": "17.0-TEST"
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_sm8150-common",
     "target_path": "vendor/xiaomi/sm8150-common",
-    "remote": "gitHub",
-    "branch": "lineage-qpr2",
+    "remote": "github",
+    "branch": "lineage-17.0",
     "depth": 1
   },
   {
     "repository": "bulla0x/android_vendor_xiaomi_raphael",
     "target_path": "vendor/xiaomi/raphael",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "lineage-qpr2",
     "depth": 1
   },
   {
     "repository": "bulla0x/android_kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/sm8150",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "16.0-raphael",
     "depth": 1
   },
   {
-    "repository": "Evolution-X-Devices/hardware_xiaomi",
+    "repository": "crdroidandroid/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "remote": "gitHub",
-    "branch": "bka-no-dolby"
+    "remote": "github",
+    "branch": "16.0-raphael"
+  },
+  {
+    "repository": "crdroidandroid/android_packages_apps_LunarisDolby",
+    "target_path": "packages/apps/LunarisDolby",
+    "remote": "github",
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_dolby",
+    "target_path": "vendor/xiaomi/dolby",
+    "remote": "gitlab",
+    "branch": "16.0"
   },
   {
     "repository": "Evolution-X-Devices/device_xiaomi_miuicamera-raphael",
     "target_path": "device/xiaomi/miuicamera",
-    "remote": "gitHub",
+    "remote": "github",
     "branch": "bka"
   },
   {
-    "repository": "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
+    "repository": "bulla0x/proprietary_vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
     "remote": "gitlab",
     "branch": "16.0-raphael",
