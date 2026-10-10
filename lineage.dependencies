@@ -1,6 +1,74 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8150-common",
-    "target_path": "device/xiaomi/sm8150-common"
+    "repository": "bulla0x/device_xiaomi_sm8150-common",
+    "target_path": "device/xiaomi/sm8150-common",
+    "remote": "github",
+    "branch": "17.0-raphael-5.4"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_qcom_display_sm8150",
+    "target_path": "hardware/qcom-caf/sm8150/display",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8150-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_nxp_nfc",
+    "target_path": "hardware/nxp/nfc",
+    "remote": "github",
+    "branch": "lineage-23.2-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_qcom_media_sm8150",
+    "target_path": "hardware/qcom-caf/sm8150/media",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8150-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_qcom_audio_sm8350",
+    "target_path": "hardware/qcom-caf/sm8350/audio",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8350-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_qcom_display_sm8350",
+    "target_path": "hardware/qcom-caf/sm8350/display",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8350-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_kernel_xiaomi_sm8150",
+    "target_path": "kernel/xiaomi/sm8150",
+    "remote": "github",
+    "branch": "MI_RAPHAEL_5.4"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_frameworks_opt_net_wifi",
+    "target_path": "frameworks/opt/net/wifi",
+    "remote": "github",
+    "branch": "25Q4-release-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/proprietary_vendor_xiaomi_raphael",
+    "target_path": "vendor/xiaomi/raphael",
+    "remote": "github",
+    "branch": "lineage-23.2-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/proprietary_vendor_xiaomi_sm8150-common",
+    "target_path": "vendor/xiaomi/sm8150-common",
+    "remote": "github",
+    "branch": "lineage-23.2-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github",
+    "branch": "lineage-23.2-raphael"
+  },
+  {
+    "repository": "erg-raphael-5-4/android_hardware_qcom_audio_sm8150",
+    "target_path": "hardware/qcom-caf/sm8150/audio",
+    "remote": "github",
+    "branch": "lineage-23.2-caf-sm8150-raphael"
   }
 ]
