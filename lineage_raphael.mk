@@ -8,20 +8,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# DerpFest
-DERPFEST_BUILD_TYPE := Official
-TARGET_SUPPORTS_BLUR := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_ACCORD := false
-TARGET_CALL_RECORDING_SUPPORTED := true
+# Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := BULLA
 WITH_GMS := true
-
-# DerpFest only uncrypts an OTA (block map in /cache) when this is set; without
-# it recovery is handed the /data path, which Lineage recovery can't mount on an
-# encrypted device, and the install aborts.
-PRODUCT_SYSTEM_PROPERTIES += \
-    persist.sys.recovery_update=true
+TARGET_USES_MINI_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+BYPASS_CHARGE_SUPPORTED := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
