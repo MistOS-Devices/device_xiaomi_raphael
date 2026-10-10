@@ -9,31 +9,36 @@
     "repository": "erg-raphael-5-4/android_hardware_qcom_display_sm8150",
     "target_path": "hardware/qcom-caf/sm8150/display",
     "remote": "github",
-    "branch": "lineage-23.2-caf-sm8150-raphael"
+    "branch": "lineage-23.2-caf-sm8150-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/android_hardware_nxp_nfc",
     "target_path": "hardware/nxp/nfc",
     "remote": "github",
-    "branch": "lineage-23.2-raphael"
+    "branch": "lineage-23.2-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/android_hardware_qcom_media_sm8150",
     "target_path": "hardware/qcom-caf/sm8150/media",
     "remote": "github",
-    "branch": "lineage-23.2-caf-sm8150-raphael"
+    "branch": "lineage-23.2-caf-sm8150-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/android_hardware_qcom_audio_sm8350",
     "target_path": "hardware/qcom-caf/sm8350/audio",
     "remote": "github",
-    "branch": "lineage-23.2-caf-sm8350-raphael"
+    "branch": "lineage-23.2-caf-sm8350-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/android_hardware_qcom_display_sm8350",
     "target_path": "hardware/qcom-caf/sm8350/display",
     "remote": "github",
-    "branch": "lineage-23.2-caf-sm8350-raphael"
+    "branch": "lineage-23.2-caf-sm8350-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/android_kernel_xiaomi_sm8150",
@@ -45,7 +50,8 @@
     "repository": "erg-raphael-5-4/android_frameworks_opt_net_wifi",
     "target_path": "frameworks/opt/net/wifi",
     "remote": "github",
-    "branch": "25Q4-release-raphael"
+    "branch": "25Q4-release-raphael",
+    "override": true
   },
   {
     "repository": "erg-raphael-5-4/proprietary_vendor_xiaomi_raphael",
@@ -69,6 +75,7 @@
     "repository": "erg-raphael-5-4/android_hardware_qcom_audio_sm8150",
     "target_path": "hardware/qcom-caf/sm8150/audio",
     "remote": "github",
-    "branch": "lineage-23.2-caf-sm8150-raphael"
+    "branch": "lineage-23.2-caf-sm8150-raphael",
+    "override": true
   }
 ]
