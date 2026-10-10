@@ -71,7 +71,7 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 # dual_shade off). Appended so it comes after vendor/lineage's map.
 PRODUCT_RELEASE_CONFIG_MAPS += $(LOCAL_PATH)/configs/release/release_config_map.textproto
 
-# Drop Maps, Photos and Gmail from the image (see RemovePackages/Android.mk)
+# Rempve bloats
 PRODUCT_PACKAGES += \
     RemovePackages
 
